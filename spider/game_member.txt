@@ -1,0 +1,211 @@
+Tauren	英雄联盟	IgorTitov	GMB	ADC
+EDward	英雄联盟	EduardAbgaryan	GMB	辅助
+Blasting	英雄联盟	DanielsKudrins	GMB	ADC
+Kira	英雄联盟	MykhailoHarmash	GMB	中单
+Diamondprox	英雄联盟	DanilReshetnikov	GMB	打野
+PVPStejos	英雄联盟	OleksandrGlazkov	GMB	上单
+MarioMe	英雄联盟	MarioReyes	LYN	ADC
+Genthix	英雄联盟	MarianPolonsky	LYN	辅助
+Whitelotus	英雄联盟	MatíasMusso	LYN	ADC
+Seiya	英雄联盟	Seiya	LYN	中单
+Oddie	英雄联盟	SebastiánNiño	LYN	打野
+Jirall	英雄联盟	DanielDelCastillo	LYN	上单
+Marf	英雄联盟	JoãoPiola	ONE	中单
+RedBert	英雄联盟	YgorFreitas	ONE	辅助
+RedBert	英雄联盟	YgorFreitas	ONE	辅助
+Absolut	英雄联盟	LuisCarvalho	ONE	ADC
+Brucer	英雄联盟	BrunoPereira	ONE	中单
+4LaN	英雄联盟	AlandersonMeirelles	ONE	打野
+VVvert	英雄联盟	álvaroMartins	ONE	上单
+Destiny	英雄联盟	Destiny	DW	辅助
+k1ng	英雄联盟	k1ng	DW	ADC
+Phantiks	英雄联盟	Phantiks	DW	中单
+Shernfire	英雄联盟	Shernfire	DW	打野
+Chippys	英雄联盟	Chippys	DW	上单
+Focho	英雄联盟	MatiasPorto	KLG	辅助
+Slow	英雄联盟	EduardoGarcés	KLG	辅助
+Fix	英雄联盟	NicolásSayago	KLG	ADC
+Plugo	英雄联盟	JoaquínPérez	KLG	中单
+Tierwulf	英雄联盟	SebastiánMateluna	KLG	打野
+MANTARRAYA	英雄联盟	JuanAbdón	KLG	上单
+惜月	英雄联盟	周慧姗	BabyGirl女子电竞俱乐部	辅助
+陈嘉宝	英雄联盟	陈嘉宝	BabyGirl女子电竞俱乐部	辅助
+黛黛	英雄联盟	方婷婷	BabyGirl女子电竞俱乐部	打野
+wang jun yi	英雄联盟	王峻艺	BabyGirl女子电竞俱乐部	上单
+Angelia	英雄联盟	陈琳之	BabyGirl女子电竞俱乐部	上单
+xixi	英雄联盟	芦玥	BabyGirl女子电竞俱乐部	ADC
+贺凡	英雄联盟	贺凡	NG电子竞技俱乐部	辅助
+张慧	英雄联盟	张慧	NG电子竞技俱乐部	上单
+陈子君	英雄联盟	陈子君	NG电子竞技俱乐部	ADC
+申知恩	英雄联盟	申知恩	NG电子竞技俱乐部	中单
+周粤	英雄联盟	周粤	NG电子竞技俱乐部	打野
+Nswdma	英雄联盟	Nswdma	GAG	辅助
+Five	英雄联盟	Five	GAG	ADC
+Wulim	英雄联盟	Wulim	GAG	中单
+Lollipop	英雄联盟	Lollipop	GAG	打野
+Nymph	英雄联盟	Nymph	GAG	上单
+YLH	英雄联盟	YLH	GAG	上单
+CC	英雄联盟	李纯	GHG电子竞技俱乐部	辅助
+小雨	英雄联盟	小雨	GHG电子竞技俱乐部	ADC
+七七	英雄联盟	乔七七	GHG电子竞技俱乐部	中单
+木木	英雄联盟	袁佳怡	GHG电子竞技俱乐部	打野
+Ciri	英雄联盟	熊可欣	GHG电子竞技俱乐部	上单
+安安	英雄联盟	安安	SCG	辅助
+西西	英雄联盟	西西	SCG	辅助
+671	英雄联盟	671	SCG	ADC
+卷卷	英雄联盟	卷卷	SCG	中单
+双儿	英雄联盟	双儿	SCG	打野
+思璐	英雄联盟	思璐	SCG	上单
+庄凯婷	英雄联盟	庄凯婷	魔鬼鱼女子俱乐部	打野
+杨文文	英雄联盟	杨文文	魔鬼鱼女子俱乐部	上单
+ 王映人	英雄联盟	 王映人	魔鬼鱼女子俱乐部	中单
+水落伊莎	英雄联盟	水落伊莎	魔鬼鱼女子俱乐部	全能
+马雯雯	英雄联盟	马雯雯	魔鬼鱼女子俱乐部	ADC
+林文晴	英雄联盟	林文晴	魔鬼鱼女子俱乐部	打野
+惊艳	英雄联盟	李雪姣	LLG女子职业俱乐部	中单
+单晨	英雄联盟	桂丽莎	LLG女子职业俱乐部	上单
+Alice	英雄联盟	张舟	LLG女子职业俱乐部	辅助
+苏格	英雄联盟	张艺思	LLG女子职业俱乐部	中单
+小蝌蚪	英雄联盟	杨月	LLG女子职业俱乐部	ADC
+Ryung	英雄联盟	丁譿呤	LLG女子职业俱乐部	中单
+linna	英雄联盟		NTG女子电竞俱乐部	辅助
+沫子	英雄联盟	周幸儿	NTG女子电竞俱乐部	上单
+北栀	英雄联盟	周佳钰	NTG女子电竞俱乐部	ADC
+妙妙	英雄联盟	黎晋伶	NTG女子电竞俱乐部	MID
+小蕊	英雄联盟	付蕊	NTG女子电竞俱乐部	JUG
+小雪	英雄联盟	赵雨甜	NTG女子电竞俱乐部	SUP
+西法	英雄联盟	叶婧怡	NTG女子电竞俱乐部	上单
+罗茜	英雄联盟	罗茜	ＴＦ未来人类	中单
+毛青文	英雄联盟	毛青文	ＴＦ未来人类	辅助
+何菁	英雄联盟		ＴＦ未来人类	中单
+程智美	英雄联盟	程智美	ＴＦ未来人类	ADC
+张璇	英雄联盟	张璇	ＴＦ未来人类	JUG
+魏涵	英雄联盟	魏涵	ＴＦ未来人类	TOP
+KA丶小龙女	英雄联盟	杨悦	KA女子电竞俱乐部	中单
+KA丶尸鬼姬	英雄联盟	彭鈺婷	KA女子电竞俱乐部	辅助
+KD丶小月儿	英雄联盟	庞宇	KA女子电竞俱乐部	ADC
+KA丶997	英雄联盟	张歆睿	KA女子电竞俱乐部	中单
+KA丶鳗鱼	英雄联盟	马曼雨	KA女子电竞俱乐部	打野
+KA丶榕	英雄联盟	王榕	KA女子电竞俱乐部	上单
+文希	英雄联盟	文希	DNR女子电竞俱乐部	ADC
+青儿	英雄联盟	青儿	DNR女子电竞俱乐部	上单
+兔儿	英雄联盟	兔儿	DNR女子电竞俱乐部	中单
+shine	英雄联盟	shine	DNR女子电竞俱乐部	打野
+小雅	英雄联盟	小雅	DNR女子电竞俱乐部	ADC
+RX·xifan	英雄联盟	稀饭	RX女子俱乐部	打野
+RX·99	英雄联盟	九九	RX女子俱乐部	ADC
+RX·LONGLONG	英雄联盟	龙龙	RX女子俱乐部	辅助
+RX·yuanyuan	英雄联盟	媛媛	RX女子俱乐部	上单
+RX·MAGO	英雄联盟	小马哥	RX女子俱乐部	中单
+RX·DANDAN	英雄联盟	蛋蛋	RX女子俱乐部	辅助
+Yunna	英雄联盟	蒋云娜	JDG京东女子战队	辅助
+Meow	英雄联盟	张仅仅	JDG京东女子战队	上单
+Han2	英雄联盟	魏晗	JDG京东女子战队	辅助
+xiaofan	英雄联盟	贺凡	JDG京东女子战队	ADC
+Weirdo	英雄联盟	李怡萱	JDG京东女子战队	中单
+Wangjun	英雄联盟	王珺	JDG京东女子战队	打野
+Bird	英雄联盟	李梦姝	JDG京东女子战队	上单
+gla1ve	CS:GO		Astralis	
+Kjaerbye	CS:GO		Astralis	
+Xyp9x	CS:GO		Astralis	
+dupreeh	CS:GO		Astralis	
+device	CS:GO		Astralis	
+HObbitt	CS:GO		Gambit	
+Zeus	CS:GO		Gambit	
+mou	CS:GO		Gambit	
+Dosia	CS:GO		Gambit	
+AdreN	CS:GO		Gambit	
+MAJ3R	CS:GO		Space Soldiers	
+Calyx	CS:GO		Space Soldiers	
+TuGuX	CS:GO		Space Soldiers	
+paz	CS:GO		Space Soldiers	
+ngiN	CS:GO		Space Soldiers	
+DESPE	CS:GO		Space Soldiers	
+XANTARES	CS:GO		Space Soldiers	
+TaZ	CS:GO		Virtus.pro	
+Snax	CS:GO		Virtus.pro	
+pasha	CS:GO		Virtus.pro	
+NEO	CS:GO		Virtus.pro	
+byali	CS:GO		Virtus.pro	
+niko	CS:GO		Heroic	
+JUGi	CS:GO		Heroic	
+Snappi	CS:GO		Heroic	
+valde	CS:GO		Heroic	
+MODDII	CS:GO		Heroic	
+seized	CS:GO		Natus Vincere	
+GuardiaN	CS:GO		Natus Vincere	
+flamie	CS:GO		Natus Vincere	
+Edward	CS:GO		Natus Vincere	
+s1mple	CS:GO		Natus Vincere	
+jw	CS:GO		Fnatic	
+olofmeister	CS:GO		Fnatic	
+KRIMZ	CS:GO		Fnatic	
+flusha	CS:GO		Fnatic	
+dennis	CS:GO		Fnatic	
+draken	CS:GO		NIP	
+Xizt	CS:GO		NIP	
+Get-right	CS:GO		NIP	
+friberg	CS:GO		NIP	
+f0rest	CS:GO		NIP	
+Magiskb0Y	CS:GO		North	
+k0nfig	CS:GO		North	
+MSL	CS:GO		North	
+cajunb	CS:GO		North	
+aizy	CS:GO		North	
+allu	CS:GO		FaZe	
+Niko	CS:GO		FaZe	
+karrigan	CS:GO		FaZe	
+rain	CS:GO		FaZe	
+kioShiMa	CS:GO		FaZe	
+felps	CS:GO		SK	
+TACO	CS:GO		SK	
+fer	CS:GO		SK	
+FALLEN	CS:GO		SK	
+coldzera	CS:GO		SK	
+autimatic	CS:GO		C9	
+Stewie2k	CS:GO		C9	
+Skadoodle	CS:GO		C9	
+shroud	CS:GO		C9	
+n0thing	CS:GO		C9	
+nexa	CS:GO		Renegades	
+USTILO	CS:GO		Renegades	
+jks	CS:GO		Renegades	
+AZR	CS:GO		Renegades	
+Nifty	CS:GO		Renegades	
+DeadFox	CS:GO		HellRaisers	
+bondik	CS:GO		HellRaisers	
+Zero	CS:GO		HellRaisers	
+STYKO	CS:GO		HellRaisers	
+ANGE1	CS:GO		HellRaisers	
+tarik	CS:GO		OpTic Gaming	
+mixwell	CS:GO		OpTic Gaming	
+RUSH	CS:GO		OpTic Gaming	
+NAF	CS:GO		OpTic Gaming	
+oskar	CS:GO		mousesports	
+loWel	CS:GO		mousesports	
+Spiidi	CS:GO		mousesports	
+denis	CS:GO		mousesports	
+chrisJ	CS:GO		mousesports	
+Twistzz	CS:GO		TL	
+jdm64	CS:GO		TL	
+EliGE	CS:GO		TL	
+nitr0	CS:GO		TL	
+stanislaw	CS:GO		TL	
+apEX	CS:GO		G2	
+kennyS	CS:GO		G2	
+NBK	CS:GO		G2	
+bodyy	CS:GO		G2	
+shox	CS:GO		G2	
+Lekr0	CS:GO		GODSENT	
+znajder	CS:GO		GODSENT	
+pronax	CS:GO		GODSENT	
+disco doplan	CS:GO		GODSENT	
+twist	CS:GO		GODSENT	
+BnTeT	CS:GO		Tyloo	
+HZ	CS:GO		Tyloo	
+DD	CS:GO		Tyloo	
+somebody	CS:GO		Tyloo	
+captainMo	CS:GO		Tyloo	
+sprattel	英雄联盟		NIP	
+HeaQ	英雄联盟		NIP	
+TheTess	英雄联盟		NIP	

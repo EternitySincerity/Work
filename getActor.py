@@ -84,8 +84,8 @@ def getopuslist(url, opusType):
 
 for pageindex in range(1, 3):
     breifInfo = getActorList("http://yy.8fkd.com/YanYuanKu/Search.aspx?page=" + str(pageindex))
-    file_object = open('E:\\breifUrl.txt', 'a', encoding="utf-8")
-    file_actor = open('E:\\Actor.txt', 'a', encoding="utf-8")
+    file_object = open('E:\\PyProjects\\Work\\spider\\breifUrl.txt', 'a', encoding="utf-8")
+    file_actor = open('E:\\PyProjects\\Work\\spider\\Actor.txt', 'a', encoding="utf-8")
     for breif in breifInfo:
         file_object.write('\t'.join([breif[0], breif[1], breif[2], breif[3], '\n']))
         actor = getActor(breif[0])

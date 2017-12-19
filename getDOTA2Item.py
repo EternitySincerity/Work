@@ -11,7 +11,7 @@ session = requests.session()
 session.headers.update(headers)
 
 
-dota2_item_file = open('E:\\dota2_item.txt', 'w', encoding="utf-8")
+dota2_item_file = open('E:\\PyProjects\\Work\\spider\\dota2_item.txt', 'w', encoding="utf-8")
 startUrl = "http://www.dota2.com.cn/js/items.js"
 html_text = requests.get(startUrl).text
 pattern = re.compile('itemsJson=([^(\};)]*)\};', re.S | re.M)

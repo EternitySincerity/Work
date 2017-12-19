@@ -54,7 +54,7 @@ def get_hero_info(hero_url):
 startUrl = "http://www.dota2.com.cn/heroes/index.htm"
 getHeroPageHref(startUrl)
 
-dota2_hero_file = open('E:\\dota2_hero.txt', 'w', encoding="utf-8")
+dota2_hero_file = open('E:\\PyProjects\\Work\\spider\\dota2_hero.txt', 'w', encoding="utf-8")
 for heroUrl in hero_url_dict.keys():
     dota2_hero_file.write(get_hero_info(heroUrl))
     dota2_hero_file.flush()

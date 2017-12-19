@@ -69,7 +69,7 @@ for child in soup.find_all(attrs={"class": "m-commentator-wrapper swiper-wrapper
     for sub_child in child.find_all(attrs={"class": "m-team-li"}):
         string_file = string_file + ('\t'.join(['commentator', 'name', sub_child.get_text().strip()]) + "\n")
 
-file_lol = open('E:\\lol.txt', 'w', encoding="utf-8")
+file_lol = open('E:\\PyProjects\\Work\\spider\\lol.txt', 'w', encoding="utf-8")
 file_lol.write(string_file)
 file_lol.flush()
 file_lol.close()

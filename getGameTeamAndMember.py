@@ -88,13 +88,13 @@ domainUrl = "http://gg.kaifu.com"
 startUrl = "http://gg.kaifu.com/xs/1.html"
 getMemberPageHref(startUrl)
 
-game_member_file = open('E:\\game_member.txt', 'w', encoding="utf-8")
+game_member_file = open('E:\\PyProjects\\Work\\spider\\game_member.txt', 'w', encoding="utf-8")
 for memberUrl in member_url_dict.keys():
     game_member_file.write(get_member_info(memberUrl))
 game_member_file.flush()
 game_member_file.close()
 
-game_corps_file = open('E:\\game_corps.txt', 'w', encoding="utf-8")
+game_corps_file = open('E:\\PyProjects\\Work\\spider\\game_corps.txt', 'w', encoding="utf-8")
 for corps_url in corps_url_dict.keys():
     game_corps_file.write(get_corps_info(corps_url))
 game_corps_file.flush()
