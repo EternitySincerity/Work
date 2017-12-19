@@ -13,6 +13,7 @@ teamMember = "http://lpl.qq.com/web201612/data/LOL_MATCH2_TEAM_MEMBER_LIST.js"
 string_file = ""
 
 
+
 def html_to_return_str(url, type):
     html_text = requests.get(url).text
     if html_text is not None and len(html_text) > 0:
