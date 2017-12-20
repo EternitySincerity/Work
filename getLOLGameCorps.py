@@ -40,9 +40,9 @@ def extract_string(orient_string, object_string):
         for i in range(0, len(object_string)):
             tmp_tmp_object = object_string[i]
             for key in tmp_tmp_object.keys():
-                extract_string(orient_string + '\t' + key + '\t', tmp_tmp_object[key])
+                extract_string(orient_string + '\t' + str(i) + '\t' + key + '\t', tmp_tmp_object[key])
     elif object_string is not None and len(object_string) > 0:
-        string_file = string_file + orient_string + "\t" + object_string + '\n'
+        string_file = (string_file + orient_string + "\t" + object_string + '\n').replace('\t\t', '\t')
 
 
 html_to_return_str(gameUrl, "game")
