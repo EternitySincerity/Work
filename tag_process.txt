@@ -1,0 +1,60 @@
+drop table tmp_lxc_chinaz_step1;
+create table tmp_lxc_chinaz_step1
+as
+select distinct url_name ,
+    url ,
+    url_class  ,
+    url_desc  ,
+    domain_url  ,
+    rank_number  ,
+    tag, 
+case when url_class rlike '招商加盟|广告营销' then '广告'
+when url_class rlike '招聘' then '招聘'
+when url_class rlike '视频|电影' then '视频'
+when url_class rlike '小说网站' then '小说'
+when url_class rlike '动漫' then '动漫'
+when url_class rlike '网络科技' then '开发'
+when url_class rlike '医院诊所' then '医院'
+when url_class rlike '健康|医' then '健康'
+when url_class rlike '房产' then '房产'
+when url_class rlike '高等院校' then '高校'
+when url_class rlike '教育' then '教育'
+when url_class rlike '聊天交友' then '社交'
+when url_class rlike '交通旅游' then '旅游'
+when url_class rlike '财经|理财|金融' then '财经'
+when url_class rlike '团购|电商' then '电商'
+ end tag2
+from src_spider_chinaz_m a
+where pt = '201804'
+and coalesce(domain_url,'') <> '';
+
+
+drop table tmp_lxc_word_1 ;
+create table tmp_lxc_word_1 as
+select word tag2 from dmn_word_dict_sogou
+where dict_name = '四级行政区划地名词库（最全）'
+and length(word)<=4;
+
+create table tmp_lxc_chinaz_step2 as
+select a.*,regexp_extract(url_name,m.pattern,0) area0,
+regexp_extract(regexp_replace(url_name,regexp_extract(url_name,m.pattern,0),''),m.pattern,0) area1
+from tmp_lxc_chinaz_step1 a 
+join (select concat_ws('|',collect_set(tab.tag2)) pattern
+from tmp_lxc_word_1 tab
+) m
+on 1=1;
+
+drop table tmp_lxc_word_2;
+create table tmp_lxc_word_2 as
+select upper(tag) tag 
+from(select itemname tag from src_dmn_game
+union all 
+select app_name tag  from dmn_app_tag
+union all 
+select tag from tmp_lxc_url_tag_01 lateral view explode(split(tag2,',')) tab as tag 
+where coalesce(tag,'')<>''
+union all 
+select title tag from src_spider_android_d where pt='20180417'
+) m
+where tag not rlike '[\\"\\*\\[\\.\\?\\+\\{\\\\\\(\\-\\,]'
+group by upper(tag);
