@@ -8,25 +8,49 @@ select distinct url_name ,
     domain_url  ,
     rank_number  ,
     tag, 
-case when url_class rlike '招商加盟|广告营销' then '广告'
+case 
+when url_class rlike '高等院校' then '高校'
+when url_class rlike '加盟|广告|营销' then '广告'
+when url_class rlike '政府组织|政府职能' and domain_url rlike '\\.gov\\.cn$' then '政府'
+when url_class rlike '动漫' then '动漫'
 when url_class rlike '招聘' then '招聘'
+when url_class rlike '母婴|育儿' then '母婴'
+when url_class rlike '团购|电商' then '电商'
 when url_class rlike '视频|电影' then '视频'
 when url_class rlike '小说网站' then '小说'
-when url_class rlike '动漫' then '动漫'
 when url_class rlike '网络科技' then '开发'
 when url_class rlike '医院诊所' then '医院'
 when url_class rlike '健康|医' then '健康'
+when url_class rlike '旅游' then '旅游'
+when url_class rlike '乐' or tag rlike '乐' then '音乐'
+when url_class rlike '驾|车' then '汽车'
+when url_class rlike '游' then '游戏'
 when url_class rlike '房产' then '房产'
-when url_class rlike '高等院校' then '高校'
+when url_class rlike '家' then '家居'
+when url_class rlike '装' then '装修'
 when url_class rlike '教育' then '教育'
 when url_class rlike '聊天交友' then '社交'
-when url_class rlike '交通旅游' then '旅游'
+
 when url_class rlike '财经|理财|金融' then '财经'
-when url_class rlike '团购|电商' then '电商'
- end tag2
+ end tag2,
+
+case 
+when url_class rlike '高等院校' then url_name 
+when tag = '国务院' then url_name 
+when url_class rlike '政府组织|政府职能' and domain_url rlike '\\.gov\\.cn$' then url_name 
+when domain_url rlike '\\.58\\.com$' then '58同城'
+when domain_url rlike '\\.ganji\\.com$' then '赶集'
+when domain_url rlike '\\.fang\\.com$' then '搜房'
+when domain_url rlike '\\.anjuke\\.com$' then '安居客'
+when domain_url rlike '\\.people\\.com\\.cn$' then '人民网'
+when domain_url rlike '\\.leju\\.com$' then '乐居'
+
+
+ end url_name2
 from src_spider_chinaz_m a
 where pt = '201804'
-and coalesce(domain_url,'') <> '';
+and coalesce(domain_url,'') <> ''
+order by rand();
 
 
 drop table tmp_lxc_word_1 ;
