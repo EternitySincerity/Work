@@ -9,45 +9,45 @@ select distinct url_name ,
     rank_number  ,
     tag, 
 case 
-when url_class rlike '¸ßµÈÔºĞ£' then '¸ßĞ£'
-when url_class rlike '¼ÓÃË|¹ã¸æ|ÓªÏú' then '¹ã¸æ'
-when url_class rlike '½ÌÓı' then '½ÌÓı'
-when url_class rlike '¿¼ÊÔ' then '¿¼ÊÔ'
-when url_class rlike 'Õş¸®×éÖ¯|Õş¸®Ö°ÄÜ' and domain_url rlike '\\.gov\\.cn$' then 'Õş¸®'
-when url_class rlike 'ÓÄÄ¬|¸ãĞ¦' then '¸ãĞ¦'
-when url_class rlike '¶¯Âş' then '¶¯Âş'
-when url_class rlike 'ÕĞÆ¸' then 'ÕĞÆ¸'
-when url_class rlike 'Ä¸Ó¤|Óı¶ù' then 'Ä¸Ó¤'
-when url_class rlike 'ÍÅ¹º|µçÉÌ' then 'µçÉÌ'
-when url_class rlike 'ÊÓÆµ|µçÓ°' then 'ÊÓÆµ'
-when url_class rlike 'Ğ¡ËµÍøÕ¾' then 'Ğ¡Ëµ'
-when url_class rlike 'ÍøÂç¿Æ¼¼' then '¿ª·¢'
-when url_class rlike 'Ò½ÔºÕïËù' then 'Ò½Ôº'
-when url_class rlike '½¡¿µ|Ò½' then '½¡¿µ'
-when url_class rlike 'ÂÃÓÎ' then 'ÂÃÓÎ'
-when url_class rlike 'Òô' or tag rlike 'Òô' then 'ÒôÀÖ'
-when url_class rlike '¼İ|³µ' then 'Æû³µ'
-when url_class rlike 'ÓÎ' then 'ÓÎÏ·'
-when url_class rlike '·¿²ú' then '·¿²ú'
-when url_class rlike '¼Ò' then '¼Ò¾Ó'
-when url_class rlike '×°' then '×°ĞŞ'
-when url_class rlike 'ÁÄÌì½»ÓÑ' then 'Éç½»'
-when url_class rlike '²Æ¾­|Àí²Æ|½ğÈÚ' then '²Æ¾­'
+when url_class rlike 'é«˜ç­‰é™¢æ ¡' then 'é«˜æ ¡'
+when url_class rlike 'åŠ ç›Ÿ|å¹¿å‘Š|è¥é”€' then 'å¹¿å‘Š'
+when url_class rlike 'æ•™è‚²' then 'æ•™è‚²'
+when url_class rlike 'è€ƒè¯•' then 'è€ƒè¯•'
+when url_class rlike 'æ”¿åºœç»„ç»‡|æ”¿åºœèŒèƒ½' and domain_url rlike '\\.gov\\.cn$' then 'æ”¿åºœ'
+when url_class rlike 'å¹½é»˜|æç¬‘' then 'æç¬‘'
+when url_class rlike 'åŠ¨æ¼«' then 'åŠ¨æ¼«'
+when url_class rlike 'æ‹›è˜' then 'æ‹›è˜'
+when url_class rlike 'æ¯å©´|è‚²å„¿' then 'æ¯å©´'
+when url_class rlike 'å›¢è´­|ç”µå•†' then 'ç”µå•†'
+when url_class rlike 'è§†é¢‘|ç”µå½±' then 'è§†é¢‘'
+when url_class rlike 'å°è¯´ç½‘ç«™' then 'å°è¯´'
+when url_class rlike 'ç½‘ç»œç§‘æŠ€' then 'å¼€å‘'
+when url_class rlike 'åŒ»é™¢è¯Šæ‰€' then 'åŒ»é™¢'
+when url_class rlike 'å¥åº·|åŒ»' then 'å¥åº·'
+when url_class rlike 'æ—…æ¸¸' then 'æ—…æ¸¸'
+when url_class rlike 'éŸ³' or tag rlike 'éŸ³' then 'éŸ³ä¹'
+when url_class rlike 'é©¾|è½¦|è¿ç« ' then 'æ±½è½¦'
+when url_class rlike 'æ¸¸' then 'æ¸¸æˆ'
+when url_class rlike 'æˆ¿äº§' then 'æˆ¿äº§'
+when url_class rlike 'å®¶' then 'å®¶å±…'
+when url_class rlike 'è£…' then 'è£…ä¿®'
+when url_class rlike 'èŠå¤©äº¤å‹' then 'ç¤¾äº¤'
+when url_class rlike 'è´¢ç»|ç†è´¢|é‡‘è' then 'è´¢ç»'
  end tag2,
 
 case 
-when url_class rlike '¸ßµÈÔºĞ£|ÖĞĞ¡Ñ§Ğ£' then url_name 
-when tag = '¹úÎñÔº' then url_name 
-when url_class rlike 'Õş¸®×éÖ¯|Õş¸®Ö°ÄÜ' and domain_url rlike '\\.gov\\.cn$' then url_name 
-when domain_url rlike '\\.58\\.com$' then '58Í¬³Ç'
-when domain_url rlike '\\.ganji\\.com$' then '¸Ï¼¯'
-when domain_url rlike '\\.fang\\.com$' then 'ËÑ·¿'
-when domain_url rlike '\\.anjuke\\.com$' then '°²¾Ó¿Í'
-when domain_url rlike '\\.people\\.com\\.cn$' then 'ÈËÃñÍø'
-when domain_url rlike '\\.leju\\.com$' then 'ÀÖ¾Ó'
-when domain_url rlike '\\.tianqi\\.com$' then 'ÌìÆøÔ¤±¨'
-when domain_url rlike '\\.baixing\\.com$' then '°ÙĞÕÍø'
-when domain_url rlike '\\.douban\\.com$' then '¶¹°ê'
+when url_class rlike 'é«˜ç­‰é™¢æ ¡|ä¸­å°å­¦æ ¡' then url_name 
+when tag = 'å›½åŠ¡é™¢' then url_name 
+when url_class rlike 'æ”¿åºœç»„ç»‡|æ”¿åºœèŒèƒ½' and domain_url rlike '\\.gov\\.cn$' then url_name 
+when domain_url rlike '\\.58\\.com$' then '58åŒåŸ'
+when domain_url rlike '\\.ganji\\.com$' then 'èµ¶é›†'
+when domain_url rlike '\\.fang\\.com$' then 'æœæˆ¿'
+when domain_url rlike '\\.anjuke\\.com$' then 'å®‰å±…å®¢'
+when domain_url rlike '\\.people\\.com\\.cn$' then 'äººæ°‘ç½‘'
+when domain_url rlike '\\.leju\\.com$' then 'ä¹å±…'
+when domain_url rlike '\\.tianqi\\.com$' then 'å¤©æ°”é¢„æŠ¥'
+when domain_url rlike '\\.baixing\\.com$' then 'ç™¾å§“ç½‘'
+when domain_url rlike '\\.douban\\.com$' then 'è±†ç“£'
 
 
  end url_name2
@@ -60,7 +60,7 @@ order by rand();
 drop table tmp_lxc_word_1 ;
 create table tmp_lxc_word_1 as
 select word tag2 from dmn_word_dict_sogou
-where dict_name = 'ËÄ¼¶ĞĞÕşÇø»®µØÃû´Ê¿â£¨×îÈ«£©'
+where dict_name = 'å››çº§è¡Œæ”¿åŒºåˆ’åœ°åè¯åº“ï¼ˆæœ€å…¨ï¼‰'
 and length(word)<=4;
 
 create table tmp_lxc_chinaz_step2 as
@@ -86,3 +86,12 @@ select title tag from src_spider_android_d where pt='20180417'
 ) m
 where tag not rlike '[\\"\\*\\[\\.\\?\\+\\{\\\\\\(\\-\\,]'
 group by upper(tag);
+
+
+create table tmp_lxc_20180426_1 as 
+select domain_url,concat_ws('\/',collect_set(tab.keyword)) from dwd_url_tag_test_seg a 
+lateral view explode(split(url_name_keyword,'\/'))tab as keyword 
+where pt='20180422_hotgame' and length(tab.keyword)>=3
+group by domain_url;
+
+
